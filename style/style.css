@@ -26,3 +26,38 @@ nav a{
   padding: 14px 20px;
   float: left;
 }
+section{
+  text-align: center;
+  padding-top: 40px;
+  height: 100vh;
+}
+section:nth-child(even){
+  background-color: #ececec;
+}
+iframe{
+  padding: 0 5px;
+}
+img{
+  padding: 0px 20px;
+}
+h2{
+  padding-bottom: 40px;
+}
+footer{
+  overflow: hidden;
+  background-color: #333;
+}
+footer a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  float: left;
+}
+.copyright{
+  float: right;
+}
+section h5{
+  margin: 0px 130px;
+  font-size: 13px;
+}
