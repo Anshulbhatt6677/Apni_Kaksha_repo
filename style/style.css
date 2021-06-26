@@ -6,13 +6,7 @@ body{
   margin: 0%;
 }
 header{
-  padding: 50px;
-  text-align: center;
-  background: rgb(17,148, 158);
-  color: white;
-}
-header h1{
-  font-size: 40px;
+  background-color: black;
 }
 nav{
   background-color: #333;
@@ -60,4 +54,13 @@ footer a{
 section h5{
   margin: 0px 130px;
   font-size: 13px;
+}
+.banner{
+  background-image: url(../assets/logo/logo.gif);
+  height: 20vw;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 50%;
+  background-attachment: fixed;
 }
