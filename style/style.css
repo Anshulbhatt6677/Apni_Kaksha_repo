@@ -23,15 +23,13 @@ nav a{
 }
 section{
   text-align: center;
-  padding-top: 40px;
-  height: 100vh;
+  padding: 75px 0px;
+  min-height: 40vh;
 }
 section:nth-child(even){
   background-color: #ececec;
 }
-iframe{
-  padding: 0 5px;
-}
+
 img{
   padding: 0px 20px;
 }
@@ -96,7 +94,23 @@ body { font-family: sans-serif; }
   margin-right: auto;
 }
 
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+} 
 
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
 
 
 @media screen and (max-width : 700px){
