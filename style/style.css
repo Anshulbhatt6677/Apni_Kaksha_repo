@@ -9,6 +9,7 @@ header{
   background-color: black;
 }
 nav{
+  display: flex;
   background-color: #333;
   /*Grey Color*/
   overflow: hidden;
@@ -55,6 +56,17 @@ section h5{
   margin: 0px 130px;
   font-size: 13px;
 }
+.menu-btn:hover{
+  background-color: white;
+  color: black;
+
+}
+section h2 span{
+  background: linear-gradient(to right, #f5d837, #bbb812);
+  padding: 10px 55px;
+  border-radius: 50px;
+  color: white;
+}
 .banner{
   background-image: url(../assets/logo/logo.gif);
   height: 20vw;
@@ -63,4 +75,38 @@ section h5{
   background-position: top center;
   background-size: 50%;
   background-attachment: fixed;
+}
+.flex-align-left{
+  margin-left: auto;
+  
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+
+.carousel-cell {
+  width: 50%;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.carousel-cell video{
+  max-width: 100%;
+  margin-right: auto;
+}
+
+
+
+
+@media screen and (max-width : 700px){
+  nav {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+  .flex-align-left{
+    margin-left: 0;
+    
+  }
+  
 }
